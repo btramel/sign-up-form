@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- CSS  -->
+    <link rel="stylesheet" href="styles.css">
+    
+        <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
+    
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-left">
+        
+            <div class="header-div">
+                <img src="odin-logo.png" alt="odin-logo">
+                <p style="display:inline">Odin</p>
+            </div>
+
+            <div class="footer">
+                <p class="opaque">Photo by <a href="https://unsplash.com/@behy_studio">Benham Norouzi</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+            </div>
+
+        </div>
+        <div class="sub-right">
+            
+            <div class="right-1">
+                <p>This isn't a real online service, but it looks nice, doesn't it? Sign up <em>now</em> to get started.</p>
+                <br>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+
+            <div class="right-2">
+                <form action="post">
+                    <section>
+                        <fieldset>
+                            <legend>Let's do this!</legend>
+                                <p style="text-transform: uppercase;">
+                                    <label for="first-name">
+                                        <span>first name</span>
+                                        <strong><abbr title="required">*</abbr></strong><br>
+                                        <input type="text" name="first-name" id="first-name" required>
+                                    </label>
+                                </p>
+
+                                <p style="text-transform: uppercase;">
+                                    <label for="last-name">
+                                        <span>last name</span>
+                                        <strong><abbr title="required">*</abbr></strong><br>
+                                        <input type="text" name="last-name" id="last-name" required>
+                                    </label>
+                                </p>
+                
+                                <p style="text-transform: uppercase;">
+                                    <label for="user-email">
+                                        <span>email</span>
+                                        <strong><abbr title="required">*</abbr></strong><br>
+                                        <input type="email" name="user-email" id="user-email" required>
+                                    </label>
+                                </p>
+                
+                                <p style="text-transform:uppercase;">
+                                    <label for="user-phone">
+                                        <span>phone number</span>
+                                        <strong><abbr title="required">*</abbr></strong><br>
+                                        <input type="tel" name="user-phone" id="user-phone" required>
+                                    </label>
+                                </p>
+                
+                                <p style="text-transform: uppercase;">
+                                    <label for="user-password">
+                                        <span>password</span>
+                                        <strong><abbr title="required">*</abbr></strong><br>
+                                        <input type="password" name="user-password" id="user-password" required>
+                                    </label>
+                                </p>
+                
+                                <p style="text-transform: uppercase;">
+                                    <label for="confirm-user-password">
+                                        <span>confirm password</span>
+                                        <strong><abbr title="required">*</abbr></strong><br>
+                                        <input type="password" name="confirm-user-password" id="confirm-user-password" required>
+                                    </label>
+                                </p>
+                        </fieldset>
+                    </section>
+            </div>
+
+            <div class="right-3">
+                <button class="submit" type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
